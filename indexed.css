@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Source Serif Pro", serif;
+}
+h1 {
+  padding-top: 200px;
+  margin: 0 auto 0 auto;
+  font-family: "Great Vibes", cursive;
+  font-size: 3.62rem;
+  color:#66bfbf;
+  line-height: 3;
+}
+h2{
+  font-size: 2rem;
+  color:#66bfbf;
+}
+h3{
+  color: #66bfbf;
+  font-weight: normal;
+}
+.upper-container {
+  text-align: center;
+  position: relative;
+  background-color:lightblue
+}
+.middle-container {
+  margin: 100px 0px;
+}
+.Lower-container {
+  background-color: #66bfbf;
+  padding: 50px 0px 20px;
+  height: 100px;
+}
+.upper-cloud {
+  position: absolute;
+  width: 10%;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  width: 10%;
+  left: 300px;
+  bottom: 300px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+hr{
+  border: dotted gray;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  
+}
+.Pro {
+  text-decoration: underline;
+}
+.profileImage {
+  margin-top: 50px;
+  width: 250px;
+  height: 300px;
+  border-radius: 210px;
+}
+.skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img {
+  /*chilli*/
+  width: 25%;
+  float: right ;
+  margin-left: 30px;
+
+}
+.bottom-mountain {
+  border-radius: 30px;
+  mix-blend-mode: multiply;
+}
+.skill-row{
+  width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 1.5;
+}
+.contact-info{
+  width: 30%;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px #020203;
+	background:linear-gradient(to bottom, #66bfbf 5%, #66bfbf 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:12px 37px;
+	text-decoration:none;
+  text-shadow:0px 2px 9px #283966;
+  margin-top: 100px;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+a{
+  color: #11999E;
+  font-family: "Source Serif Pro", serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+.copywrite-message{
+  color: white;
+  font-size: 1rem;
+  line-height: 2;
+  padding: 20px 0px ;
+}
